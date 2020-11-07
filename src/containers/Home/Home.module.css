@@ -1,0 +1,9 @@
+.Section {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.Section h3, .Section p {
+    text-align: left;
+}

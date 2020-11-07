@@ -1,0 +1,36 @@
+.Toolbar {
+    height: 56px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.Toolbar h2 {
+    color: #555555;
+}
+
+.Internal {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color:lightgray;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.Toolbar nav {
+    height: 100%;
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+} 
+
+@media (min-width: 500px) {
+    .PhoneOnly {
+        display: none;
+    }
+}

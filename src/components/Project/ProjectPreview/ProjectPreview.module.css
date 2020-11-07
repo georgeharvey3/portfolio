@@ -1,0 +1,37 @@
+.ProjectPreview {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 55px auto;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Description {
+    text-align: left;
+}
+
+.ProjectPreview div {
+    width: 50%;
+}
+
+.ProjectPreview img {
+    max-width: 50%;
+    max-height: 300px;
+}
+
+.ProjectPreview div h3 {
+    display: block;
+}
+
+.ProjectPreview div p {
+    display: block;
+    list-style: none;
+}
+
+.ProjectPreview:hover {
+    background-color: #aaa;
+}
