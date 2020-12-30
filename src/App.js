@@ -10,7 +10,7 @@ import Projects from './containers/Projects/Projects';
 import Contact from './containers/Contact/Contact';
 import HanLearn from './containers/Projects/HanLearn/HanLearn';
 import GlobalMusic from './containers/Projects/GlobalMusic/GlobalMusic';
-import CharacterDecomposer from './containers/Projects/CharacterDecomposer/CharacterDecomposer';
+import ChinDict from './containers/Projects/ChinDict/ChinDict';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Switch>
           <Route path="/projects/hanlearn" component={HanLearn} />
           <Route path="/projects/global-music" component={GlobalMusic} />
-          <Route path="/projects/character-decomposer" component={CharacterDecomposer} />
+          <Route path="/projects/chin-dict" component={ChinDict} />
           <Route path="/contact" component={Contact} />
           <Route path="/projects" component={Projects} />
           <Route path="/" exact component={Home} />

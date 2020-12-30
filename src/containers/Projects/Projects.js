@@ -5,6 +5,7 @@ import ProjectPreview from '../../components/Project/ProjectPreview/ProjectPrevi
 
 import HanLearnImage from '../../assets/images/testwords_pic.png';
 import GMOverview from '../../assets/images/GMOverview.png';
+import CDCap from '../../assets/images/CD-cap.png';
 
 class Projects extends Component {
     render () {
@@ -28,11 +29,11 @@ class Projects extends Component {
                         image={GMOverview} 
                         linkTo="global-music" />
                     <ProjectPreview
-                        title="Character Decomposer"
-                        description="Python library for showing decomposition/semantic roots of Mandarin Characters. Usable with Command Line Interface"
+                        title="chin-dict library"
+                        description="Python library for showing decomposition/semantic roots of Mandarin Characters with command line interface"
                         languages="Python"
-                        linkTo="character-decomposer"
-                        image={HanLearnImage} />
+                        linkTo="chin-dict"
+                        image={CDCap} />
                 </ul>
             </Aux>
         )
