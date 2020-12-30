@@ -8,6 +8,7 @@
     padding: 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1.3em;
 }
 
 .Description {
@@ -24,12 +25,15 @@
 }
 
 .ProjectPreview div h3 {
-    display: block;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: left; 
 }
 
 .ProjectPreview div p {
-    display: block;
+    display: inline-block;
     list-style: none;
+    text-align: left;
 }
 
 .ProjectPreview:hover {

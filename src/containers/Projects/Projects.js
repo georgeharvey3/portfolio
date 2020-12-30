@@ -4,26 +4,28 @@ import Aux from '../../hoc/Aux';
 import ProjectPreview from '../../components/Project/ProjectPreview/ProjectPreview';
 
 import HanLearnImage from '../../assets/images/testwords_pic.png';
+import GMOverview from '../../assets/images/GMOverview.png';
 
 class Projects extends Component {
     render () {
         return (
             <Aux>
                 <h1>Projects</h1>
+                <hr style={{width: "90%"}} />
                 <ul style={{
                         listStyle: "none",
                         padding: "10px 0"}}>
                     <ProjectPreview 
                         title="HanLearn"
-                        description="Interactive web app for memorising Mandarin vocabulary. Features include word lookup, handwriting and voice recognition and spaced repetition. ReactJS on the front-end, with a Python REST API"
+                        description="Interactive web app for memorising Mandarin vocabulary. Features include word lookup, handwriting/voice recognition and spaced repetition. ReactJS on the front-end, with a Python REST API"
                         languages={"JavaScript, HTML, CSS, Python"}
                         image={HanLearnImage} 
                         linkTo="hanlearn" />
                     <ProjectPreview
                         title="Global Music"
-                        description="Data driven project, mapping tradition music albums from around the world. Data scraped from websites and used with Spotify and Google Sheets API."
+                        description="Data driven project, mapping traditional music albums from around the world. Data collected from websites and used with Spotify and Google Sheets API."
                         languages="Python"
-                        image={HanLearnImage} 
+                        image={GMOverview} 
                         linkTo="global-music" />
                     <ProjectPreview
                         title="Character Decomposer"

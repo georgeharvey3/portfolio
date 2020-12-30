@@ -34,6 +34,11 @@ class Layout extends Component {
                 <main className={classes.Content}>
                     {this.props.children}
                 </main>
+                <footer>
+                    <hr style={{width: "90%"}}/>
+                    <p>George Harvey 2020</p>
+                </footer>
+                
             </Aux>
         );
     }

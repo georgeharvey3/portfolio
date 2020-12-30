@@ -26,19 +26,20 @@
         height: 100%;
         width: auto;
         align-items: center;
+        border-radius: 5px;
+        font-size: 1.2em;
     }
 
     .NavigationItem a {
         height: 100%;
         width: auto;
         padding: 16px 10px;
-        border-bottom: 4px solid transparent;
+        border-radius: 2px;
     }
 
     .NavigationItem a:hover,
     .NavigationItem a:active,
     .NavigateItem a.active {
-        background-color: tomato;
-        border-bottom: 4px solid burlywood;
+        background-color: #999999;
     }
 }
