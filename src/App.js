@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import React, { Component } from 'react';
-import { Route, Switch, withRouter } from 'react-router-dom';
+import { Route, Switch, withRouter, HashRouter } from 'react-router-dom';
 
 import './App.css';
 import Layout from './containers/Layout/Layout';
@@ -14,18 +14,20 @@ import ChinDict from './containers/Projects/ChinDict/ChinDict';
 
 function App() {
   return (
-    <div className="App">
-      <Layout>
-        <Switch>
-          <Route path="/projects/hanlearn" component={HanLearn} />
-          <Route path="/projects/global-music" component={GlobalMusic} />
-          <Route path="/projects/chin-dict" component={ChinDict} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/" exact component={Home} />
-        </Switch>
-      </Layout>
-    </div>
+    <HashRouter>
+      <div className="App">
+        <Layout>
+          <Switch>
+            <Route path="/projects/hanlearn" component={HanLearn} />
+            <Route path="/projects/global-music" component={GlobalMusic} />
+            <Route path="/projects/chin-dict" component={ChinDict} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/" exact component={Home} />
+          </Switch>
+        </Layout>
+      </div>
+    </ HashRouter>
   );
 }
 
