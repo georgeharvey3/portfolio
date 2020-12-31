@@ -21,7 +21,7 @@ class ProjectPreview extends Component {
                     <h3>Languages: </h3>
                     <p>{this.props.languages}</p>
                 </div>
-                <img src={this.props.image} />
+                <img src={this.props.image} alt="project img"/>
             </li>
         );
 

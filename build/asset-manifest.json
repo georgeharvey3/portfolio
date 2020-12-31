@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.13ec1121.chunk.css",
-    "main.js": "/portfolio/static/js/main.7a584aa1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7a584aa1.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.936e2236.chunk.css",
+    "main.js": "/portfolio/static/js/main.fcb389d0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fcb389d0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b66021fa.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b66021fa.js.map",
-    "static/js/2.8d2c7749.chunk.js": "/portfolio/static/js/2.8d2c7749.chunk.js",
-    "static/js/2.8d2c7749.chunk.js.map": "/portfolio/static/js/2.8d2c7749.chunk.js.map",
+    "static/js/2.36eb74a7.chunk.js": "/portfolio/static/js/2.36eb74a7.chunk.js",
+    "static/js/2.36eb74a7.chunk.js.map": "/portfolio/static/js/2.36eb74a7.chunk.js.map",
     "static/js/3.8cab2a81.chunk.js": "/portfolio/static/js/3.8cab2a81.chunk.js",
     "static/js/3.8cab2a81.chunk.js.map": "/portfolio/static/js/3.8cab2a81.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.13ec1121.chunk.css.map": "/portfolio/static/css/main.13ec1121.chunk.css.map",
-    "static/js/2.8d2c7749.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8d2c7749.chunk.js.LICENSE.txt",
+    "static/css/main.936e2236.chunk.css.map": "/portfolio/static/css/main.936e2236.chunk.css.map",
+    "static/js/2.36eb74a7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.36eb74a7.chunk.js.LICENSE.txt",
     "static/media/CD-cap.797bb358.png": "/portfolio/static/media/CD-cap.797bb358.png",
     "static/media/GM-screen-cap.7025fba9.png": "/portfolio/static/media/GM-screen-cap.7025fba9.png",
     "static/media/GM-sheet.5d4872f2.png": "/portfolio/static/media/GM-sheet.5d4872f2.png",
     "static/media/GMOverview.9b9aec1c.png": "/portfolio/static/media/GMOverview.9b9aec1c.png",
     "static/media/HLHome.79c44f62.png": "/portfolio/static/media/HLHome.79c44f62.png",
+    "static/media/Me.86de9a4a.png": "/portfolio/static/media/Me.86de9a4a.png",
     "static/media/chin-dict.d0bf18f5.png": "/portfolio/static/media/chin-dict.d0bf18f5.png",
-    "static/media/logo.103b5fa1.svg": "/portfolio/static/media/logo.103b5fa1.svg",
     "static/media/testwords_pic.79ec1dd4.png": "/portfolio/static/media/testwords_pic.79ec1dd4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b66021fa.js",
-    "static/js/2.8d2c7749.chunk.js",
-    "static/css/main.13ec1121.chunk.css",
-    "static/js/main.7a584aa1.chunk.js"
+    "static/js/2.36eb74a7.chunk.js",
+    "static/css/main.936e2236.chunk.css",
+    "static/js/main.fcb389d0.chunk.js"
   ]
 }

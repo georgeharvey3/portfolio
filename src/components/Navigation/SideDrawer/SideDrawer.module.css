@@ -6,10 +6,13 @@
     left: 0;
     top: 0;
     z-index: 200;
-    background-color: cadetblue;
+    background-color: black;
     padding: 32px 16px;
     box-sizing: border-box;
     transition: transform .3s ease-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media (min-width: 500px) {

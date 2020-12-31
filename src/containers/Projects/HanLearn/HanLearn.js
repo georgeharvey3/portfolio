@@ -31,14 +31,15 @@ class HanLearn extends Component {
                     </p>
                 </section>
                 <section>
-                    <div style={{width: "80%", margin: "0 auto", position: "relative"}}>
+                    <div className={classes.Big} style={{width: "80%", margin: "0 auto", position: "relative"}}>
                         <img src={HLHome} style={{
                             width: "100%"
-                        }}/>
+                        }} alt="HanLearn homepage"/>
                         <div className={classes.Overlay} onClick={this.goToSite}>
                             <a href="https://www.hanlearn.co.uk">Visit Site</a>
                         </div>
-                    </div>            
+                    </div>
+                    <a className={classes.Small} style={{color: "black", textDecoration: "underline", fontSize: "1em"}} href="https://www.hanlearn.co.uk">Visit Site</a>            
                 </section>
             </div>
         );

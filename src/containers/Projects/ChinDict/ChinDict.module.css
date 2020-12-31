@@ -8,7 +8,6 @@
 
 .ChinDict a {
     font-size: 1.5em;
-    display: block;
     text-align: center;
     text-decoration: none;
     width: 200px;
@@ -49,4 +48,19 @@
 
 .Overlay:hover a {
     display: block;
+}
+
+.Small {
+    display: none;
+    color: black;
+}
+
+@media (max-width: 700px) {
+    .Big {
+        display: none;
+    }
+
+    .Small {
+        display: block;
+    }
 }

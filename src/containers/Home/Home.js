@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 
-import Aux from '../../hoc/Aux';
-
 import classes from './Home.module.css';
+
+import Me from '../../assets/images/Me.png';
 
 class Home extends Component {
     render () {
         return (
-            <Aux className={classes.Home}>
+            <div className={classes.Home}>
                 <h1>George Harvey - Graduate Developer, Birmingham UK </h1>
                 <hr style={{width: "90%"}} />
+                <img src={Me} alt="me"/>
                 <section className={classes.Section}>
                     <h3>About</h3>
                     <p>Hi there! I'm George, a student studying for an MSc in Computer Science at the University of Birmingham. I have a passion for life-changing software that connects users with data in a seemless and engaging way. On this website you can see a few of the projects I have worked on, get a taste for how I code and get in touch! Thanks for stopping by.</p>
@@ -40,7 +41,7 @@ class Home extends Component {
                     <h3>Hobbies</h3>
                     <p>When I am not writing code, you're most likely to find me learning a foreign lanugage or playing music. Currently I am two years into learning Mandarin and ten or so years into learning Spanish. Along the way I have also tried my hand at German, Russian, Romanian and Japanese, with mixed results! As for music, I've played both piano and guitar since a young age and have a particular interest in folk music from around the world.</p>
                 </section>
-            </Aux>
+            </div>
             
         )
     }

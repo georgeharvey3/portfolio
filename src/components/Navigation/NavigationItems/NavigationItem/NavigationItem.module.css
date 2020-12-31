@@ -10,7 +10,7 @@
     width: 100%;
     box-sizing: border-box;
     display: block;
-    color: #555555
+    color: white;
 }
 
 .NavigationItem a:hover,
@@ -35,6 +35,7 @@
         width: auto;
         padding: 16px 10px;
         border-radius: 2px;
+        color: #555555;
     }
 
     .NavigationItem a:hover,

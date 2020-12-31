@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import React, { Component } from 'react';
+import React from 'react';
 import { Route, Switch, withRouter, HashRouter } from 'react-router-dom';
 
 import './App.css';
@@ -14,7 +13,7 @@ import ChinDict from './containers/Projects/ChinDict/ChinDict';
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <div className="App">
         <Layout>
           <Switch>

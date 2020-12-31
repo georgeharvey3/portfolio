@@ -4,11 +4,25 @@
     margin: 0 auto;
 }
 
-h1 {
+.Home h1 {
     font-size: 1.9em;
+    width: 95%;
+    margin: 20px auto
+}
+
+.Home img {
+    width: 80%;
+    margin: 15px;
+    max-width: 600px;
 }
 
 .Section h3, .Section p {
     text-align: left;
     font-size: 1.3em;
+}
+
+@media (max-width: 500px) {
+    .Home img {
+        display: none;
+    }
 }
