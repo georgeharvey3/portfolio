@@ -18,7 +18,7 @@ class Projects extends Component {
                         padding: "10px 0"}}>
                     <ProjectPreview 
                         title="HanLearn"
-                        description="Interactive web app for memorising Mandarin vocabulary. Features include word lookup, handwriting/voice recognition and spaced repetition. ReactJS on the front-end, with a Python REST API"
+                        description="Interactive web app for memorising Mandarin vocabulary. Features include word lookup, handwriting/voice recognition and spaced repetition. ReactJS on the front-end, with a Python REST API."
                         languages={"JavaScript, HTML, CSS, Python"}
                         image={HanLearnImage} 
                         linkTo="hanlearn" />
@@ -30,7 +30,7 @@ class Projects extends Component {
                         linkTo="global-music" />
                     <ProjectPreview
                         title="chin-dict library"
-                        description="Python library for showing decomposition/semantic roots of Mandarin Characters with command line interface"
+                        description="Python library for showing decomposition/semantic roots of Mandarin Characters with command line interface."
                         languages="Python"
                         linkTo="chin-dict"
                         image={CDCap} />

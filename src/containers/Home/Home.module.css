@@ -11,9 +11,8 @@
 }
 
 .Home img {
-    width: 80%;
     margin: 15px;
-    max-width: 600px;
+    max-height: 500px;
 }
 
 .Section h3, .Section p {

@@ -39,7 +39,23 @@ class Home extends Component {
                 </section>
                 <section className={classes.Section}>
                     <h3>Hobbies</h3>
-                    <p>When I am not writing code, you're most likely to find me learning a foreign lanugage or playing music. Currently I am two years into learning Mandarin and ten or so years into learning Spanish. Along the way I have also tried my hand at German, Russian, Romanian and Japanese, with mixed results! As for music, I've played both piano and guitar since a young age and have a particular interest in folk music from around the world.</p>
+                    <p>When I am not writing code, you're most likely to find me doing one of the following:</p>
+                    <ul>
+                        <li>
+                            <h3>Learning languages</h3>
+                            <p>Currently, I'm 2 years into Mandarin Chinese and 10 years into Spanish.</p>
+                            <p>Along the way I have also tried my hand at German, Russian, Romanian and Japanese, with mixed results!</p>
+                        </li>
+                        <li>
+                            <h3>Playing music</h3>
+                            <p>I've been playing classical/folk music on the acoustic guitar and jazz/blues on the piano from a young age.</p>
+                            <p></p>
+                        </li>
+                        <li>
+                            <h3>Drinking tea</h3>
+                            <p>I've been fascinated by traditional Chinese tea culture for several years now, I even have a tasting blog <a href="https://leafandliquor.wordpress.com/">here</a>.</p>
+                        </li>
+                    </ul>
                 </section>
             </div>
             
