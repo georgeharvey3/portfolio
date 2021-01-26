@@ -1,7 +1,23 @@
 .GlobalMusic section {
-    width: 80%;
+    width: 60%;
     margin: 20px auto;
     display: inline-block;
     text-align: left;
     font-size: 1.2em;
+}
+
+.GlobalMusic section p {
+    text-align: justify;
+}
+
+@media (max-width: 1000px) {
+    .GlobalMusic section {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    .GlobalMusic section {
+        width: 80%;
+    }
 }
