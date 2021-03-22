@@ -24,7 +24,7 @@ class MealSelector extends Component {
                     <h2>Technologies Used</h2>
                     <hr />
                     <p>
-                        JavaScript - ReactJS, Redux
+                        JavaScript - ReactJS, Redux,
                         Google Firebase Realtime Database API
                     </p>
                 </section>
