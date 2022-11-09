@@ -12,7 +12,7 @@ class MealSelector extends Component {
     render () {
         return (
             <div className={classes.MealSelector}>
-                <h1>HanLearn</h1>
+                <h1>Meal Selector</h1>
                 <section className={classes.Section}>
                     <h2>Project Overview</h2>
                     <hr />

@@ -6,7 +6,7 @@ import ProjectPreview from '../../components/Project/ProjectPreview/ProjectPrevi
 import HanLearnImage from '../../assets/images/testwords_pic.png';
 import GMOverview from '../../assets/images/GMOverview.png';
 import CDCap from '../../assets/images/CD-cap.png';
-import MSCap from '../../assets/images/meal-selector.png';
+import LangChatHome from '../../assets/images/langchat-home.png';
 
 class Projects extends Component {
     render () {
@@ -30,11 +30,11 @@ class Projects extends Component {
                         linkTo="chin-dict"
                         image={CDCap} />
                     <ProjectPreview
-                        title="Meal Selector"
-                        description="Simple web app for creating shopping lists from ingredients of regularly cooked meals. ReactJS with Google Firebase Realtime Database."
-                        languages="JavaScript, HTML, CSS"
-                        linkTo="meal-selector"
-                        image={MSCap} />
+                        title="LangChat"
+                        description="Web app allowing English learners to practise their speaking skills with a chatbot. ReactJS with a Flask server."
+                        languages="JavaScript, Python, HTML, CSS, AIML"
+                        linkTo="langchat"
+                        image={LangChatHome} />
                     <ProjectPreview
                         title="Global Music"
                         description="Data driven project, mapping traditional music albums from around the world. Data collected from websites and used with Spotify and Google Sheets API."

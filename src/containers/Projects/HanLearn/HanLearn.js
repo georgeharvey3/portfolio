@@ -7,7 +7,7 @@ import HLHome from '../../../assets/images/HLHome.png';
 
 class HanLearn extends Component {
     goToSite = () => {
-        window.location.href = "https://www.hanlearn.co.uk";
+        window.open('https://hanlearn.app', '_blank').focus();
     }
     render () {
         return (
@@ -17,7 +17,11 @@ class HanLearn extends Component {
                     <h2>Project Overview</h2>
                     <hr />
                     <p>
-                        After learning Mandarin for several months, I found that most flashcard applications weren't geared towards learning Chinese. I decided to build my own using the features that I found the others lacked. When building a bank of words to learn, users can simply look the Chinese word up in HanLearn's dictionary, instead of having to manually input the pronunciation and translation. The app makes use of Hanzi Writer, a JavaScript library for practising writing characters. Also the app uses Google's WebSpeech API, so users can practise their speaking and listening skills when testing their word banks.
+                        <p>After learning Mandarin for several months I found that most flashcard applications weren't geared towards learning Chinese, so I decided to build my own.</p>
+                        <p>Users can build a bank of Chinese words they would like to memorise by looking up the Chinese word up in HanLearn's dictionary, instead of having to manually input the pronunciation and translation.</p>
+                        <p>The app tests users by requiring them to enter the pinyin, meaning or character for various words in their bank.</p>
+                        <p>In order to allow users to practise their speaking and listening skills, the app uses Google's WebSpeech API.</p>
+                        <p>The app also makes use of Hanzi Writer, a JavaScript library for practising writing characters. </p>
                     </p>
                 </section>
                 <section className={classes.Section}>
@@ -36,7 +40,7 @@ class HanLearn extends Component {
                             width: "100%"
                         }} alt="HanLearn homepage"/>
                         <div className={classes.Overlay} onClick={this.goToSite}>
-                            <a href="https://www.hanlearn.co.uk">Visit Site</a>
+                            <a href="https://hanlearn.app">Visit Site</a>
                         </div>
                     </div>
                     <a className={classes.Small} style={{color: "black", textDecoration: "underline", fontSize: "1em"}} href="https://www.hanlearn.co.uk">Visit Site</a>            

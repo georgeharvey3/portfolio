@@ -6,7 +6,8 @@ import classes from './ProjectPreview.module.css';
 class ProjectPreview extends Component {
 
     onClickHandler = () => {
-        this.props.history.push(`/projects/${this.props.linkTo}`)
+        window.scrollTo(0, 0);
+        this.props.history.push(`/projects/${this.props.linkTo}`);
     }
     render () {
         return (
