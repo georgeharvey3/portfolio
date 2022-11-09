@@ -14,17 +14,17 @@ import LangChat from './containers/Projects/LangChat/LangChat';
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/portfolio">
       <div className="App">
         <Layout>
           <Switch>
-            <Route path="/portfolio/projects/hanlearn" component={HanLearn} />
-            <Route path="/portfolio/projects/global-music" component={GlobalMusic} />
-            <Route path="/portfolio/projects/chin-dict" component={ChinDict} />
-            <Route path="/portfolio/projects/langchat" component={LangChat} />
-            <Route path="/portfolio/contact" component={Contact} />
-            <Route path="/portfolio/projects" component={Projects} />
-            <Route path="/portfolio/" exact component={Home} />
+            <Route path="/projects/hanlearn" component={HanLearn} />
+            <Route path="/projects/global-music" component={GlobalMusic} />
+            <Route path="/projects/chin-dict" component={ChinDict} />
+            <Route path="/projects/langchat" component={LangChat} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/" exact component={Home} />
           </Switch>
         </Layout>
       </div>
