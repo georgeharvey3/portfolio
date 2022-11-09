@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import classes from "./Home.module.css";
 
-import Me from "../../assets/images/Me.png";
+import Me from "../../assets/images/george.jpeg";
 
 class Home extends Component {
     render() {
