@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf8b163a.chunk.css",
-    "main.js": "/static/js/main.09a911c3.chunk.js",
-    "main.js.map": "/static/js/main.09a911c3.chunk.js.map",
+    "main.css": "/static/css/main.9343cfd2.chunk.css",
+    "main.js": "/static/js/main.2f1744bd.chunk.js",
+    "main.js.map": "/static/js/main.2f1744bd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.79bcfc3d.js",
     "runtime-main.js.map": "/static/js/runtime-main.79bcfc3d.js.map",
     "static/js/2.388f4d5d.chunk.js": "/static/js/2.388f4d5d.chunk.js",
@@ -10,23 +10,26 @@
     "static/js/3.cb4fb097.chunk.js": "/static/js/3.cb4fb097.chunk.js",
     "static/js/3.cb4fb097.chunk.js.map": "/static/js/3.cb4fb097.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.bf8b163a.chunk.css.map": "/static/css/main.bf8b163a.chunk.css.map",
+    "static/css/main.9343cfd2.chunk.css.map": "/static/css/main.9343cfd2.chunk.css.map",
     "static/js/2.388f4d5d.chunk.js.LICENSE.txt": "/static/js/2.388f4d5d.chunk.js.LICENSE.txt",
     "static/media/CD-cap.797bb358.png": "/static/media/CD-cap.797bb358.png",
     "static/media/GM-screen-cap.7025fba9.png": "/static/media/GM-screen-cap.7025fba9.png",
     "static/media/GM-sheet.5d4872f2.png": "/static/media/GM-sheet.5d4872f2.png",
     "static/media/GMOverview.9b9aec1c.png": "/static/media/GMOverview.9b9aec1c.png",
     "static/media/HLHome.79c44f62.png": "/static/media/HLHome.79c44f62.png",
-    "static/media/Me.c05c8be5.png": "/static/media/Me.c05c8be5.png",
     "static/media/chin-dict.d0bf18f5.png": "/static/media/chin-dict.d0bf18f5.png",
-    "static/media/meal-selector-list2.11d03824.png": "/static/media/meal-selector-list2.11d03824.png",
-    "static/media/meal-selector.da8f3bd6.png": "/static/media/meal-selector.da8f3bd6.png",
+    "static/media/george.c306827d.jpeg": "/static/media/george.c306827d.jpeg",
+    "static/media/langchat-dialogue.cca14ae3.png": "/static/media/langchat-dialogue.cca14ae3.png",
+    "static/media/langchat-home.d5e1cde1.png": "/static/media/langchat-home.d5e1cde1.png",
+    "static/media/langchat-profile.5cb76400.png": "/static/media/langchat-profile.5cb76400.png",
+    "static/media/langchat-report.d8da5de5.pdf": "/static/media/langchat-report.d8da5de5.pdf",
+    "static/media/langchat-vocab.69724ba1.png": "/static/media/langchat-vocab.69724ba1.png",
     "static/media/testwords_pic.79ec1dd4.png": "/static/media/testwords_pic.79ec1dd4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.79bcfc3d.js",
     "static/js/2.388f4d5d.chunk.js",
-    "static/css/main.bf8b163a.chunk.css",
-    "static/js/main.09a911c3.chunk.js"
+    "static/css/main.9343cfd2.chunk.css",
+    "static/js/main.2f1744bd.chunk.js"
   ]
 }
