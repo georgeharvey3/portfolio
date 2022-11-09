@@ -18,13 +18,13 @@ function App() {
       <div className="App">
         <Layout>
           <Switch>
-            <Route path="/projects/hanlearn" component={HanLearn} />
-            <Route path="/projects/global-music" component={GlobalMusic} />
-            <Route path="/projects/chin-dict" component={ChinDict} />
-            <Route path="/projects/langchat" component={LangChat} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/" exact component={Home} />
+            <Route path="/portfolio/projects/hanlearn" component={HanLearn} />
+            <Route path="/portfolio/projects/global-music" component={GlobalMusic} />
+            <Route path="/portfolio/projects/chin-dict" component={ChinDict} />
+            <Route path="/portfolio/projects/langchat" component={LangChat} />
+            <Route path="/portfolio/contact" component={Contact} />
+            <Route path="/portfolio/projects" component={Projects} />
+            <Route path="/portfolio/" exact component={Home} />
           </Switch>
         </Layout>
       </div>
