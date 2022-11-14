@@ -24,16 +24,6 @@ class HanLearn extends Component {
                         <p>The app also makes use of Hanzi Writer, a JavaScript library for practising writing characters. </p>
                     </p>
                 </section>
-                <section className={classes.Section}>
-                    <h2>Technologies Used</h2>
-                    <hr />
-                    <p>
-                        JavaScript - ReactJS, Redux
-                    </p>
-                    <p>
-                        Python - Flask, SQLAlchemy
-                    </p>
-                </section>
                 <section>
                     <div className={classes.Big} style={{width: "80%", margin: "0 auto", position: "relative"}}>
                         <img src={HLHome} style={{

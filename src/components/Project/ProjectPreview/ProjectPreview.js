@@ -19,7 +19,8 @@ class ProjectPreview extends Component {
                     <p className={classes.Description}>
                         {this.props.description}
                     </p>
-                    <h3>Languages: </h3>
+                    <br />
+                    <h3>Technologies: </h3>
                     <p>{this.props.languages}</p>
                 </div>
                 <img src={this.props.image} alt="project img"/>

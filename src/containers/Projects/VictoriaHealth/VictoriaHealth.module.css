@@ -1,0 +1,66 @@
+.VictoriaHealth section {
+  width: 80%;
+  margin: 20px auto;
+  display: inline-block;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.VictoriaHealth a {
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  margin: 10px auto;
+  border-radius: 5px;
+  color: white;
+  border: thin white solid;
+  padding: 10px;
+  /*background: linear-gradient(180deg, rgb(7, 115, 187) 35%, rgb(6, 97, 158) 100%);
+  box-shadow: 0 1px 3px black;*/
+}
+
+.VictoriaHealth img {
+  display: block;
+  margin: 0 auto;
+}
+
+.Overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .3s;
+}
+
+.Overlay:hover {
+  background-color: rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+}
+
+.Overlay a {
+  display: none;
+}
+
+.Overlay:hover a {
+  display: block;
+}
+
+.Small {
+  display: none;
+  color: black;
+}
+
+@media (max-width: 700px) {
+  .Big {
+      display: none;
+  }
+
+  .Small {
+      display: block;
+  }
+}

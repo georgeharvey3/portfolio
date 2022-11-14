@@ -8,7 +8,7 @@ class Home extends Component {
     render() {
         return (
             <div className={classes.Home}>
-                <h1>George Harvey - Graduate Developer, Birmingham UK </h1>
+                <h1>George Harvey - Frontend Developer</h1>
                 <hr style={{ width: "90%" }} />
                 <img src={Me} alt="me" />
                 <section className={classes.Section}>
@@ -19,10 +19,13 @@ class Home extends Component {
                         have a passion for life-changing software that connects
                         users with data in a seemless and engaging way.
                         Specifically, I am fascinated in how technology can
-                        enhance the language learning process. On this website
-                        you can see a few of the projects I have worked on, get
-                        a taste for how I code and get in touch! Thanks for
-                        stopping by.
+                        enhance the language learning process.
+                    </p>
+                    <p>
+                        Currently I am employed at Space48, one of the UK's
+                        leading ecommerce agencies. On this site you can see a
+                        small selection of the projects that I have made a
+                        significant contribution to during my time there.
                     </p>
                 </section>
                 <section className={classes.Section}>
@@ -48,6 +51,8 @@ class Home extends Component {
                         <li>Heroku</li>
                         <li>Git</li>
                         <li>GitHub</li>
+                        <li>GCP (Google Cloud Platform)</li>
+                        <li>AIML (Artificial Intelligence Markup Language)</li>
                     </ul>
                 </section>
                 <section className={classes.Section}>
@@ -65,7 +70,7 @@ class Home extends Component {
                             </p>
                             <p>
                                 Along the way I have also tried my hand at
-                                German, Russian, Romanian and Japanese, with
+                                German, Russian, Romanian and Japanese - with
                                 mixed results!
                             </p>
                         </li>

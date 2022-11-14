@@ -55,14 +55,6 @@ class MealSelector extends Component {
                     </p>
                 </section>
                 <section className={classes.Section}>
-                    <h2>Technologies Used</h2>
-                    <hr />
-                    <p>
-                        JavaScript - ReactJS, Redux, Python - Flask, SQLite, AIML
-                        (Artificial Intelligence Markup Language)
-                    </p>
-                </section>
-                <section className={classes.Section}>
                     <ul className={classes.ImageList}>
                         <li>
                             <img
