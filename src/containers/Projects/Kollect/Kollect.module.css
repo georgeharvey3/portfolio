@@ -55,7 +55,7 @@
   color: black;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1023px) {
   .Big {
       display: none;
   }
