@@ -18,7 +18,7 @@ import Kollect from './containers/Projects/Kollect/Kollect';
 
 function App() {
   return (
-    <HashRouter basename="/portfolio">
+    <HashRouter basename="/">
       <div className="App">
         <Layout>
           <Switch>
