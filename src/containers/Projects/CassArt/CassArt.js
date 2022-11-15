@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 
 import classes from './CassArt.module.css';
 
-import HLHome from '../../../assets/images/HLHome.png';
+import CassArtImg from '../../../assets/images/CassArt.png';
 
 class CassArt extends Component {
     goToSite = () => {
@@ -12,7 +12,7 @@ class CassArt extends Component {
     render () {
         return (
             <div className={classes.CassArt}>
-                <h1>CassArt</h1>
+                <h1>Cass Art</h1>
                 <section className={classes.Section}>
                     <h2>Project Overview</h2>
                     <hr />
@@ -28,7 +28,7 @@ class CassArt extends Component {
                 </section>
                 <section>
                     <div className={classes.Big} style={{width: "80%", margin: "0 auto", position: "relative"}}>
-                        <img src={HLHome} style={{
+                        <img src={CassArtImg} style={{
                             width: "100%"
                         }} alt="CassArt homepage"/>
                         <div className={classes.Overlay} onClick={this.goToSite}>

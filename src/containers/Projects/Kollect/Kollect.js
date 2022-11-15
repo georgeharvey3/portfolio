@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 
 import classes from './Kollect.module.css';
 
-import HLHome from '../../../assets/images/HLHome.png';
+import KollectImg from '../../../assets/images/Kollect.png';
 
 class Kollect extends Component {
     goToSite = () => {
@@ -28,7 +28,7 @@ class Kollect extends Component {
                 </section>
                 <section>
                     <div className={classes.Big} style={{width: "80%", margin: "0 auto", position: "relative"}}>
-                        <img src={HLHome} style={{
+                        <img src={KollectImg} style={{
                             width: "100%"
                         }} alt="Kollect homepage"/>
                         <div className={classes.Overlay} onClick={this.goToSite}>
